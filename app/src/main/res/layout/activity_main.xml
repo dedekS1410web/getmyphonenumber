@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/lllogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/logo"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="350dp"-->
+            <!--                android:padding="50dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:src="@drawable/demoapp" />-->
+
+            <TextView
+                android:id="@+id/sdn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIM CARD NUMBER :"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/sn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SERIAL NUMBER NUMBER :"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
